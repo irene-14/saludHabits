@@ -17,12 +17,15 @@ class ViewControllerHabito1: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func checkCompleto(_ sender: UISwitch) {
-        swCompleto.isOn = sender.isOn
+        if swCompleto.isOn {
+            let alert = UIAlertController(title: "Hábito completado", message: "Hoy hiciste " + lbMinutos.text! + " minutos de ejercicio", preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {UIAlertAction in }))
+                self.present(alert, animated: true, completion: nil)
+        }
+        //swCompleto.isOn = sender.isOn
     }
     
     @IBAction func addMinutos(_ sender: UIStepper) {
