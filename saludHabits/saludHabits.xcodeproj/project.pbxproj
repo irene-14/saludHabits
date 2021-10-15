@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3A677E93271605EA00CE703F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A677E92271605EA00CE703F /* AppDelegate.swift */; };
 		3A677E95271605EA00CE703F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A677E94271605EA00CE703F /* SceneDelegate.swift */; };
-		3A677E97271605EA00CE703F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A677E96271605EA00CE703F /* ViewController.swift */; };
 		3A677E9A271605EA00CE703F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A677E98271605EA00CE703F /* Main.storyboard */; };
 		3A677E9C271605EB00CE703F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A677E9B271605EB00CE703F /* Assets.xcassets */; };
 		3A677E9F271605EB00CE703F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A677E9D271605EB00CE703F /* LaunchScreen.storyboard */; };
@@ -19,13 +18,25 @@
 		3A6DA75127193F20009415D2 /* ViewControllerHabito4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6DA75027193F20009415D2 /* ViewControllerHabito4.swift */; };
 		3AA696DC2718D6AA00F25BAD /* ViewControllerHabito1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA696DB2718D6AA00F25BAD /* ViewControllerHabito1.swift */; };
 		3AA696DE2718E0BC00F25BAD /* ViewControllerHabito2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA696DD2718E0BC00F25BAD /* ViewControllerHabito2.swift */; };
+		E4FAEF0627196011000EF029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF0527196011000EF029 /* ViewController.swift */; };
+		E4FAEF0827196063000EF029 /* RegistroHabito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF0727196063000EF029 /* RegistroHabito.swift */; };
+		E4FAEF0A271964FB000EF029 /* Habito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF09271964FB000EF029 /* Habito.swift */; };
+		E4FAEF0C271967FF000EF029 /* Ejercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF0B271967FF000EF029 /* Ejercicio.swift */; };
+		E4FAEF0E27196A59000EF029 /* SinCelular.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF0D27196A59000EF029 /* SinCelular.swift */; };
+		E4FAEF1027196B78000EF029 /* Comidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF0F27196B78000EF029 /* Comidas.swift */; };
+		E4FAEF1227196C2A000EF029 /* Receta.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF1127196C2A000EF029 /* Receta.swift */; };
+		E4FAEF1427196CE6000EF029 /* Breaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF1327196CE6000EF029 /* Breaks.swift */; };
+		E4FAEF1627196DE2000EF029 /* FrutasVerduras.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF1527196DE2000EF029 /* FrutasVerduras.swift */; };
+		E4FAEF1827196E5B000EF029 /* Meditacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF1727196E5B000EF029 /* Meditacion.swift */; };
+		E4FAEF1A27196ED9000EF029 /* Agua.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF1927196ED9000EF029 /* Agua.swift */; };
+		E4FAEF1C27196F30000EF029 /* Dormir.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF1B27196F30000EF029 /* Dormir.swift */; };
+		E4FAEF1E271971FA000EF029 /* Pasos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FAEF1D271971FA000EF029 /* Pasos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A677E8F271605EA00CE703F /* saludHabits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saludHabits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A677E92271605EA00CE703F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A677E94271605EA00CE703F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A677E96271605EA00CE703F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A677E99271605EA00CE703F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A677E9B271605EB00CE703F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A677E9E271605EB00CE703F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +47,19 @@
 		3A6DA75027193F20009415D2 /* ViewControllerHabito4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHabito4.swift; sourceTree = "<group>"; };
 		3AA696DB2718D6AA00F25BAD /* ViewControllerHabito1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHabito1.swift; sourceTree = "<group>"; };
 		3AA696DD2718E0BC00F25BAD /* ViewControllerHabito2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHabito2.swift; sourceTree = "<group>"; };
+		E4FAEF0527196011000EF029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4FAEF0727196063000EF029 /* RegistroHabito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroHabito.swift; sourceTree = "<group>"; };
+		E4FAEF09271964FB000EF029 /* Habito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habito.swift; sourceTree = "<group>"; };
+		E4FAEF0B271967FF000EF029 /* Ejercicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio.swift; sourceTree = "<group>"; };
+		E4FAEF0D27196A59000EF029 /* SinCelular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinCelular.swift; sourceTree = "<group>"; };
+		E4FAEF0F27196B78000EF029 /* Comidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comidas.swift; sourceTree = "<group>"; };
+		E4FAEF1127196C2A000EF029 /* Receta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Receta.swift; sourceTree = "<group>"; };
+		E4FAEF1327196CE6000EF029 /* Breaks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breaks.swift; sourceTree = "<group>"; };
+		E4FAEF1527196DE2000EF029 /* FrutasVerduras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrutasVerduras.swift; sourceTree = "<group>"; };
+		E4FAEF1727196E5B000EF029 /* Meditacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meditacion.swift; sourceTree = "<group>"; };
+		E4FAEF1927196ED9000EF029 /* Agua.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agua.swift; sourceTree = "<group>"; };
+		E4FAEF1B27196F30000EF029 /* Dormir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dormir.swift; sourceTree = "<group>"; };
+		E4FAEF1D271971FA000EF029 /* Pasos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pasos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +94,21 @@
 			children = (
 				3A677E92271605EA00CE703F /* AppDelegate.swift */,
 				3A677E94271605EA00CE703F /* SceneDelegate.swift */,
-				3A677E96271605EA00CE703F /* ViewController.swift */,
 				3A677EA727160A1C00CE703F /* ViewControllerSettings.swift */,
 				3A677E98271605EA00CE703F /* Main.storyboard */,
+				E4FAEF0727196063000EF029 /* RegistroHabito.swift */,
+				E4FAEF09271964FB000EF029 /* Habito.swift */,
+				E4FAEF0B271967FF000EF029 /* Ejercicio.swift */,
+				E4FAEF0D27196A59000EF029 /* SinCelular.swift */,
+				E4FAEF0F27196B78000EF029 /* Comidas.swift */,
+				E4FAEF1127196C2A000EF029 /* Receta.swift */,
+				E4FAEF1327196CE6000EF029 /* Breaks.swift */,
+				E4FAEF1727196E5B000EF029 /* Meditacion.swift */,
+				E4FAEF1927196ED9000EF029 /* Agua.swift */,
+				E4FAEF1B27196F30000EF029 /* Dormir.swift */,
+				E4FAEF1527196DE2000EF029 /* FrutasVerduras.swift */,
+				E4FAEF1D271971FA000EF029 /* Pasos.swift */,
+				E4FAEF0527196011000EF029 /* ViewController.swift */,
 				3A6DA74E27193923009415D2 /* ViewControllerHabito3.swift */,
 				3A6DA75027193F20009415D2 /* ViewControllerHabito4.swift */,
 				3AA696DD2718E0BC00F25BAD /* ViewControllerHabito2.swift */,
@@ -156,15 +192,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4FAEF1827196E5B000EF029 /* Meditacion.swift in Sources */,
 				3A6DA75127193F20009415D2 /* ViewControllerHabito4.swift in Sources */,
-				3A677E97271605EA00CE703F /* ViewController.swift in Sources */,
 				3AA696DC2718D6AA00F25BAD /* ViewControllerHabito1.swift in Sources */,
+				E4FAEF1A27196ED9000EF029 /* Agua.swift in Sources */,
 				3A677EAA27160A3F00CE703F /* ViewControllerInfo.swift in Sources */,
+				E4FAEF0E27196A59000EF029 /* SinCelular.swift in Sources */,
+				E4FAEF0627196011000EF029 /* ViewController.swift in Sources */,
 				3AA696DE2718E0BC00F25BAD /* ViewControllerHabito2.swift in Sources */,
+				E4FAEF1C27196F30000EF029 /* Dormir.swift in Sources */,
+				E4FAEF1027196B78000EF029 /* Comidas.swift in Sources */,
 				3A677E93271605EA00CE703F /* AppDelegate.swift in Sources */,
 				3A677E95271605EA00CE703F /* SceneDelegate.swift in Sources */,
+				E4FAEF0C271967FF000EF029 /* Ejercicio.swift in Sources */,
 				3A677EA827160A1C00CE703F /* ViewControllerSettings.swift in Sources */,
+				E4FAEF1E271971FA000EF029 /* Pasos.swift in Sources */,
+				E4FAEF0A271964FB000EF029 /* Habito.swift in Sources */,
+				E4FAEF1627196DE2000EF029 /* FrutasVerduras.swift in Sources */,
+				E4FAEF1227196C2A000EF029 /* Receta.swift in Sources */,
 				3A6DA74F27193923009415D2 /* ViewControllerHabito3.swift in Sources */,
+				E4FAEF0827196063000EF029 /* RegistroHabito.swift in Sources */,
+				E4FAEF1427196CE6000EF029 /* Breaks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
